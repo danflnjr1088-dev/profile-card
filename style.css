@@ -84,7 +84,7 @@
 .follow-btn:hover{
   background-color: #c99ef5;
   }
-follow-btn.following{
+.follow-btn.following{
   background-color: transparent;
   color: #a855f7;
   border: 2px solid #a855f7;
