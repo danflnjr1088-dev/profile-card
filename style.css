@@ -18,12 +18,29 @@
   padding: 2rem 1.5rem;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  position: relative;
   align-items: center;
   justify-content: center;
   background: #f3f4f6;
   border: 1px solid #efe7eb;
   border-radius: 12px;
   box-shadow: 0 10px 16x -3px rgba(0,0,0,0.05), 0 4px 6px -4px rgba(0,0,0,0.05);
+}
+.header{
+  width: calc(100% + 3rem);
+  height: 100px;
+  margin: -2rem -1.5rem 0 -1.5 rem;
+  background: #a83250
+}
+.curve {
+  width: 140%;
+  height: 80px;
+  background: #d63384;
+  border-radius: 50%;
+  position: absolute;
+  top: 60px;
+  left: -20px;
 }
 .image{
   width: 120px;
@@ -64,6 +81,11 @@
 .social-icon[aria-label="GitHub"]:hover{
   background-color: #24292e;
   }
+.button-group{
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+}
 .follow-btn{
   background: #e0c3fc;
   padding-top: 9px;
@@ -73,6 +95,7 @@
   color: black;
   width: 100px;
   height: 40px;
+  margin: 20px;
   border-radius: 10px;
   border: 2px solid #e0c3fc;
   font-family: sans-serif,arial;
@@ -88,3 +111,23 @@
   background-color: transparent;
   color: #a855f7;
   border: 2px solid #a855f7;
+  }
+.message-btn{
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 6px;
+  padding-left:6px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid #a855f7;
+  background: transparent;
+  width: 100px;
+  color: #a855f7;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.message-btn:hover{
+  background: #a855f7;
+  color: black;
+  border: 2px solid #a855f7;
+}
