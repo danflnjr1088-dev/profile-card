@@ -28,6 +28,7 @@
   box-shadow: 0 10px 16x -3px rgba(0,0,0,0.05), 0 4px 6px -4px rgba(0,0,0,0.05);
 }
 .header{
+  position: relative;
   width: calc(100% + 3rem);
   height: 100px;
   margin: -2rem -1.5rem 0 -1.5 rem;
@@ -101,7 +102,6 @@
   color: black;
   width: 100px;
   height: 40px;
-  margin: 20px;
   border-radius: 10px;
   border: 2px solid #e0c3fc;
   font-family: sans-serif,arial;
