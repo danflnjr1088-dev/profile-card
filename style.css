@@ -42,7 +42,7 @@
   position: absolute;
   top: 60px;
   left: 50%;
-  transfom: translateX(-50%);
+  transform: translateX(-50%);
 }
 .image{
   width: 120px;
