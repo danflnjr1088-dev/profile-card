@@ -10,12 +10,16 @@
   </head>
   <body class="main">
     <div class="card">
+      <div class="header"></div>
+      <div class="curve"></div>
       <img src="profile.png" alt="User Profile" class="image">
-      <h1>Muhammad Saifullah</h1>
-      <h3>@Saifullah</h3>
-      <p>
+      <div class="content">
+      <h3>Muhammad Saifullah</h3>
+      <p class="handle">@Saifullah</p>
+      <p class="bio">
         I am learning web development.My goal is to become a professional web developer.
       </p>
+      </div>
    <div class="social-link">
     <a href="https://www.facebook.com/muhammadbn.husein?mibextid=ZbWKwL" class="social-icon" aria-label="Facebook">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -32,9 +36,14 @@
       </svg>
    </a>
     </div>
+      <div class="button-group">
       <button class="follow-btn">
         Follow
       </button>
+        <button class="message-btn" id="message-btn">
+          Message
+        </button>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
