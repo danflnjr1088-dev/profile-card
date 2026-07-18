@@ -8,7 +8,7 @@ followBtn.addEventListener('click', () => {
 });
 
 const messageBtn = document.getElementById("message-btn");
-message.addEventListener("click", () => {
+message.addEventListener("click", () =>{
   const myEmail = "danflnjr1088@gmail.com";
   const subject = encodeURIComponent("Inquery from your profile card");
 
