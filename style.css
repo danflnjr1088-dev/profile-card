@@ -46,6 +46,9 @@
   width: 120px;
   height: 120px;
   border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  margin-top: -60px;
   object-fit: cover;
   border: 4px solid #FADADD;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -122,6 +125,8 @@
   border: 2px solid #a855f7;
   background: transparent;
   width: 100px;
+  height: 40px;
+  border-radius: 10px;
   color: #a855f7;
   cursor: pointer;
   transition: all 0.2s ease;
