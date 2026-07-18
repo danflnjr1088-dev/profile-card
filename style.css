@@ -41,8 +41,7 @@
   border-radius: 50%;
   position: absolute;
   top: 60px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: -20px;
 }
 .image{
   width: 120px;
